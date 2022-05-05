@@ -51,7 +51,7 @@ img{
 /* container */
 .container{
     width: 100%;
-    min-width: 1240px;
+    max-width: 1220px;
     padding: 0 20px;
     margin: 0 auto;
 
@@ -59,6 +59,7 @@ img{
 /* site_header */
 .site_header_top {
     padding: 30px 0;
+    margin-bottom: 10px;
     background: #f6f6f6;
 
 }
@@ -78,7 +79,7 @@ align-items: center;
     opacity: 0.8;
 }
 .site_header_logo:active{
-    opacity: 0.6;
+    opacity: 0.6; 
 }
 .currency_rates {
     display: flex;
@@ -97,6 +98,7 @@ align-items: center;
 }
 /* global_search_form */
 .global_search_form {
+    margin-right: 25px;
 }
 .global_search_form_input {
 
@@ -135,4 +137,43 @@ align-items: center;
    color: #000;
 }
 .site_header_auth {
+}
+
+
+/* sitenav */
+.sitenav {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 16px 0;
+    margin-bottom: 40px;
+}
+.sitenav_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sitenav_item:not(:last-child) {
+    margin-right: 35px;
+}
+.sitenav_link {
+    display: block;
+    color: #7f7f77;
+    text-decoration: none;
+    font-size: 18px;
+    transform: all 1s;
+    margin: 4px 0;
+}
+.sitenav_link:hover{
+    color: #7296ec;
+}
+.sitenav_link:active{
+    opacity: 0.6;
+}
+.site_header_banner {
+   
+}
+.site_header_banner_link {
+    display: flex;
 }
