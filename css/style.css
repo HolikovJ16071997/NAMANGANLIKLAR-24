@@ -7,6 +7,10 @@
         height: 100%;
         scroll-behavior: smooth;
     }
+    *:focus{
+        outline: dashed 2px #7296EC;
+        outline-offset: 3px;
+    }
 
     body{
         display: flex;
@@ -464,3 +468,91 @@
         border-radius: 15px;
         object-fit: cover;
     }
+    /* site_footer */
+    .site_footer {
+        margin-top: 50px;
+    background: #7297EF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    }
+    .site_footer *:focus{
+        outline: dashed 2px #fff;
+        outline-offset: 3px;
+    }
+   
+    .site_footer_log_wrapper {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .site_footer_logo {
+        display: flex;
+    }
+    .site_footer_log_img:hover{
+        opacity: 0.8;
+    }
+    .site_footer_log_img:active{
+        opacity: 0.6;
+    }
+    .site_footer_log_img{
+        width: 264px;
+        height: 28px;
+        object-fit: contain;
+    }
+    .site_footer_about_links {
+        display: flex;
+    }
+    .site_footer_about {
+        width: 229px;
+        font-size: 12px;
+        line-height: 19px;
+        margin-right: 200px;
+    }
+    .site_footer_links_wraper {
+        display: flex;
+        flex-grow: 1;
+    }
+    .site_footer_links {
+        width: 50%;
+       
+
+    }
+    .site_foooter_links_item {
+      list-style: none;
+      padding-bottom: 10px; ;
+    }
+    .site_foooter_link {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .site_footer_divider {
+
+    }
+    .site_footer_socials{
+        display: flex;
+        justify-content: space-between;
+    }
+    .site_footer_socials_headding {
+        width: 161px;
+        height: 46px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .site_footer_socials_ul {
+        display: flex;
+    }
+    .site_footer_socials_list {
+        
+        list-style: none;
+    }
+    .site_footer_socials_list:not(:last-child) {
+        padding-right: 10px;
+    }
+    .site_footer_socials_link{
+       
+    }
+    
